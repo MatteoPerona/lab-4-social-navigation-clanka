@@ -1,0 +1,3 @@
+[console_scripts]
+social_navigation_node = lab4.social_navigation_node:main
+

@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.020624] (lab4) JobQueued: {'identifier': 'lab4', 'dependencies': OrderedDict()}
+[0.020928] (lab4) JobStarted: {'identifier': 'lab4'}
+[0.103608] (-) TimerEvent: {}
+[0.207433] (-) TimerEvent: {}
+[0.310241] (-) TimerEvent: {}
+[0.413468] (-) TimerEvent: {}
+[0.515759] (-) TimerEvent: {}
+[0.621402] (-) TimerEvent: {}
+[0.730862] (-) TimerEvent: {}
+[0.835564] (-) TimerEvent: {}
+[0.938171] (-) TimerEvent: {}
+[1.041013] (-) TimerEvent: {}
+[1.146389] (-) TimerEvent: {}
+[1.256274] (-) TimerEvent: {}
+[1.357005] (-) TimerEvent: {}
+[1.462126] (-) TimerEvent: {}
+[1.565583] (-) TimerEvent: {}
+[1.669441] (-) TimerEvent: {}
+[1.772611] (-) TimerEvent: {}
+[1.878913] (-) TimerEvent: {}
+[1.986920] (-) TimerEvent: {}
+[2.089003] (-) TimerEvent: {}
+[2.200564] (-) TimerEvent: {}
+[2.308215] (-) TimerEvent: {}
+[2.410464] (-) TimerEvent: {}
+[2.512237] (-) TimerEvent: {}
+[2.617288] (-) TimerEvent: {}
+[2.724903] (-) TimerEvent: {}
+[2.834022] (-) TimerEvent: {}
+[2.935657] (-) TimerEvent: {}
+[3.038774] (-) TimerEvent: {}
+[3.140575] (-) TimerEvent: {}
+[3.243236] (-) TimerEvent: {}
+[3.348130] (-) TimerEvent: {}
+[3.450357] (-) TimerEvent: {}
+[3.552788] (-) TimerEvent: {}
+[3.658501] (-) TimerEvent: {}
+[3.764206] (-) TimerEvent: {}
+[3.869537] (-) TimerEvent: {}
+[3.975736] (-) TimerEvent: {}
+[4.080140] (-) TimerEvent: {}
+[4.183933] (-) TimerEvent: {}
+[4.285920] (-) TimerEvent: {}
+[4.391969] (-) TimerEvent: {}
+[4.495577] (-) TimerEvent: {}
+[4.605553] (-) TimerEvent: {}
+[4.707187] (-) TimerEvent: {}
+[4.809155] (-) TimerEvent: {}
+[4.910364] (-) TimerEvent: {}
+[5.014006] (-) TimerEvent: {}
+[5.121701] (-) TimerEvent: {}
+[5.224202] (-) TimerEvent: {}
+[5.334618] (-) TimerEvent: {}
+[5.437220] (-) TimerEvent: {}
+[5.539415] (-) TimerEvent: {}
+[5.641925] (-) TimerEvent: {}
+[5.746333] (-) TimerEvent: {}
+[5.847912] (-) TimerEvent: {}
+[5.949475] (-) TimerEvent: {}
+[6.050937] (-) TimerEvent: {}
+[6.152750] (-) TimerEvent: {}
+[6.254414] (-) TimerEvent: {}
+[6.356483] (-) TimerEvent: {}
+[6.458707] (-) TimerEvent: {}
+[6.560810] (-) TimerEvent: {}
+[6.675023] (-) TimerEvent: {}
+[6.782728] (-) TimerEvent: {}
+[6.888555] (-) TimerEvent: {}
+[6.989308] (-) TimerEvent: {}
+[7.093384] (-) TimerEvent: {}
+[7.198783] (-) TimerEvent: {}
+[7.304581] (-) TimerEvent: {}
+[7.406878] (-) TimerEvent: {}
+[7.509245] (-) TimerEvent: {}
+[7.611226] (-) TimerEvent: {}
+[7.712574] (-) TimerEvent: {}
+[7.822959] (-) TimerEvent: {}
+[7.925170] (-) TimerEvent: {}
+[8.028409] (-) TimerEvent: {}
+[8.129498] (-) TimerEvent: {}
+[8.230224] (-) TimerEvent: {}
+[8.331790] (-) TimerEvent: {}
+[8.433244] (-) TimerEvent: {}
+[8.538172] (-) TimerEvent: {}
+[8.641232] (-) TimerEvent: {}
+[8.745003] (-) TimerEvent: {}
+[8.849255] (-) TimerEvent: {}
+[8.863229] (lab4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/build/lab4/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/ros2_ws/build/lab4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '128.84.80.195 58648 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu/lab-4-social-navigation-botworks/ros2_ws/src/lab4/lab4', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/lab-4-social-navigation-botworks/ros2_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/ubuntu/lab-4-social-navigation-botworks/ros2_ws/install/lab4:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.52.16.20:11811;', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/ros2_ws/build/lab4', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '128.84.80.195 58648 10.52.16.20 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages:/home/ubuntu/lab-4-social-navigation-botworks/ros2_ws/build/lab4:/home/ubuntu/lab-4-social-navigation-botworks/ros2_ws/install/lab4/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.949764] (-) TimerEvent: {}
+[9.051478] (-) TimerEvent: {}
+[9.152370] (-) TimerEvent: {}
+[9.255753] (-) TimerEvent: {}
+[9.357329] (-) TimerEvent: {}
+[9.459957] (-) TimerEvent: {}
+[9.569337] (-) TimerEvent: {}
+[9.673041] (-) TimerEvent: {}
+[9.776122] (-) TimerEvent: {}
+[9.879632] (-) TimerEvent: {}
+[9.981525] (-) TimerEvent: {}
+[10.085010] (-) TimerEvent: {}
+[10.189281] (-) TimerEvent: {}
+[10.294914] (-) TimerEvent: {}
+[10.406164] (-) TimerEvent: {}
+[10.508650] (-) TimerEvent: {}
+[10.614552] (-) TimerEvent: {}
+[10.716559] (-) TimerEvent: {}
+[10.817572] (-) TimerEvent: {}
+[10.919738] (-) TimerEvent: {}
+[11.022141] (-) TimerEvent: {}
+[11.124254] (-) TimerEvent: {}
+[11.224998] (-) TimerEvent: {}
+[11.326510] (-) TimerEvent: {}
+[11.427466] (-) TimerEvent: {}
+[11.529699] (-) TimerEvent: {}
+[11.630571] (-) TimerEvent: {}
+[11.732523] (-) TimerEvent: {}
+[11.835864] (-) TimerEvent: {}
+[11.939572] (-) TimerEvent: {}
+[12.044453] (-) TimerEvent: {}
+[12.145795] (-) TimerEvent: {}
+[12.248028] (-) TimerEvent: {}
+[12.359592] (-) TimerEvent: {}
+[12.461113] (-) TimerEvent: {}
+[12.563173] (-) TimerEvent: {}
+[12.583255] (lab4) StdoutLine: {'line': b'running develop\n'}
+[12.664004] (-) TimerEvent: {}
+[12.769371] (-) TimerEvent: {}
+[12.872527] (-) TimerEvent: {}
+[12.975800] (-) TimerEvent: {}
+[13.080087] (-) TimerEvent: {}
+[13.181967] (-) TimerEvent: {}
+[13.284826] (-) TimerEvent: {}
+[13.388363] (-) TimerEvent: {}
+[13.491635] (-) TimerEvent: {}
+[13.595839] (-) TimerEvent: {}
+[13.700039] (-) TimerEvent: {}
+[13.808379] (-) TimerEvent: {}
+[13.912350] (-) TimerEvent: {}
+[14.013786] (-) TimerEvent: {}
+[14.115728] (-) TimerEvent: {}
+[14.221749] (-) TimerEvent: {}
+[14.323044] (-) TimerEvent: {}
+[14.424679] (-) TimerEvent: {}
+[14.526629] (-) TimerEvent: {}
+[14.633006] (-) TimerEvent: {}
+[14.735734] (-) TimerEvent: {}
+[14.837685] (-) TimerEvent: {}
+[14.938481] (-) TimerEvent: {}
+[15.040524] (lab4) StdoutLine: {'line': b'running egg_info\n'}
+[15.041349] (-) TimerEvent: {}
+[15.043079] (lab4) StdoutLine: {'line': b'creating lab4.egg-info\n'}
+[15.044251] (lab4) StdoutLine: {'line': b'writing lab4.egg-info/PKG-INFO\n'}
+[15.045745] (lab4) StdoutLine: {'line': b'writing dependency_links to lab4.egg-info/dependency_links.txt\n'}
+[15.047020] (lab4) StdoutLine: {'line': b'writing entry points to lab4.egg-info/entry_points.txt\n'}
+[15.047914] (lab4) StdoutLine: {'line': b'writing requirements to lab4.egg-info/requires.txt\n'}
+[15.050058] (lab4) StdoutLine: {'line': b'writing top-level names to lab4.egg-info/top_level.txt\n'}
+[15.050684] (lab4) StdoutLine: {'line': b"writing manifest file 'lab4.egg-info/SOURCES.txt'\n"}
+[15.077819] (lab4) StdoutLine: {'line': b"reading manifest file 'lab4.egg-info/SOURCES.txt'\n"}
+[15.087998] (lab4) StdoutLine: {'line': b"writing manifest file 'lab4.egg-info/SOURCES.txt'\n"}
+[15.095802] (lab4) StdoutLine: {'line': b'running build_ext\n'}
+[15.099512] (lab4) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4.egg-link (link to .)\n'}
+[15.105560] (lab4) StdoutLine: {'line': b'Installing social_navigation_node script to /home/ubuntu/ros2_ws/install/lab4/lib/lab4\n'}
+[15.108961] (lab4) StdoutLine: {'line': b'\n'}
+[15.113106] (lab4) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/build/lab4\n'}
+[15.128642] (lab4) StdoutLine: {'line': b'running symlink_data\n'}
+[15.137695] (lab4) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index\n'}
+[15.150384] (-) TimerEvent: {}
+[15.159185] (lab4) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index\n'}
+[15.160475] (lab4) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index/packages\n'}
+[15.161346] (lab4) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/lab4/resource/lab4 -> /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index/packages\n'}
+[15.162561] (lab4) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/lab4/package.xml -> /home/ubuntu/ros2_ws/install/lab4/share/lab4\n'}
+[15.164068] (lab4) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/lab4/share/lab4/launch\n'}
+[15.165256] (lab4) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/lab4/launch/bringup_and_waypoints.launch.py -> /home/ubuntu/ros2_ws/install/lab4/share/lab4/launch\n'}
+[15.251383] (-) TimerEvent: {}
+[15.352298] (-) TimerEvent: {}
+[15.449228] (lab4) CommandEnded: {'returncode': 0}
+[15.452799] (-) TimerEvent: {}
+[15.556193] (-) TimerEvent: {}
+[15.588377] (lab4) JobEnded: {'identifier': 'lab4', 'rc': 0}
+[15.593016] (-) EventReactorShutdown: {}

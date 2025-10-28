@@ -1,0 +1,22 @@
+[3.568s] Invoking command in '/home/ubuntu/ros2_ws/src/lab4': PYTHONPATH=/home/ubuntu/ros2_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/ubuntu/ros2_ws/build/lab4/build install --record /home/ubuntu/ros2_ws/build/lab4/install.log --single-version-externally-managed install_data
+[4.964s] running egg_info
+[4.966s] writing ../../build/lab4/lab4.egg-info/PKG-INFO
+[4.969s] writing dependency_links to ../../build/lab4/lab4.egg-info/dependency_links.txt
+[4.970s] writing entry points to ../../build/lab4/lab4.egg-info/entry_points.txt
+[4.970s] writing requirements to ../../build/lab4/lab4.egg-info/requires.txt
+[4.971s] writing top-level names to ../../build/lab4/lab4.egg-info/top_level.txt
+[4.984s] reading manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[4.986s] adding license file 'LICENSE'
+[4.989s] writing manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[4.989s] running build
+[4.990s] running build_py
+[4.994s] running install
+[4.995s] running install_lib
+[5.003s] running install_data
+[5.006s] running install_egg_info
+[5.015s] removing '/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info' (and everything under it)
+[5.017s] Copying ../../build/lab4/lab4.egg-info to /home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[5.024s] running install_scripts
+[5.111s] Installing social_navigation_node script to /home/ubuntu/ros2_ws/install/lab4/lib/lab4
+[5.113s] writing list of installed files to '/home/ubuntu/ros2_ws/build/lab4/install.log'
+[5.270s] Invoked command in '/home/ubuntu/ros2_ws/src/lab4' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/ubuntu/ros2_ws/build/lab4/build install --record /home/ubuntu/ros2_ws/build/lab4/install.log --single-version-externally-managed install_data

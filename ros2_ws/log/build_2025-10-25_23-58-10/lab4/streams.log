@@ -1,0 +1,26 @@
+[8.849s] Invoking command in '/home/ubuntu/ros2_ws/build/lab4': PYTHONPATH=/home/ubuntu/ros2_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/lab4/build --no-deps symlink_data
+[12.563s] running develop
+[15.020s] running egg_info
+[15.023s] creating lab4.egg-info
+[15.024s] writing lab4.egg-info/PKG-INFO
+[15.025s] writing dependency_links to lab4.egg-info/dependency_links.txt
+[15.027s] writing entry points to lab4.egg-info/entry_points.txt
+[15.027s] writing requirements to lab4.egg-info/requires.txt
+[15.029s] writing top-level names to lab4.egg-info/top_level.txt
+[15.031s] writing manifest file 'lab4.egg-info/SOURCES.txt'
+[15.058s] reading manifest file 'lab4.egg-info/SOURCES.txt'
+[15.069s] writing manifest file 'lab4.egg-info/SOURCES.txt'
+[15.076s] running build_ext
+[15.080s] Creating /home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4.egg-link (link to .)
+[15.085s] Installing social_navigation_node script to /home/ubuntu/ros2_ws/install/lab4/lib/lab4
+[15.091s] 
+[15.107s] Installed /home/ubuntu/ros2_ws/build/lab4
+[15.116s] running symlink_data
+[15.129s] creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index
+[15.139s] creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index
+[15.140s] creating /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index/packages
+[15.141s] symbolically linking /home/ubuntu/ros2_ws/build/lab4/resource/lab4 -> /home/ubuntu/ros2_ws/install/lab4/share/ament_index/resource_index/packages
+[15.143s] symbolically linking /home/ubuntu/ros2_ws/build/lab4/package.xml -> /home/ubuntu/ros2_ws/install/lab4/share/lab4
+[15.144s] creating /home/ubuntu/ros2_ws/install/lab4/share/lab4/launch
+[15.145s] symbolically linking /home/ubuntu/ros2_ws/build/lab4/launch/bringup_and_waypoints.launch.py -> /home/ubuntu/ros2_ws/install/lab4/share/lab4/launch
+[15.429s] Invoked command in '/home/ubuntu/ros2_ws/build/lab4' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/lab4/build --no-deps symlink_data
